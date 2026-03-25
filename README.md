@@ -39,10 +39,10 @@ LassoCMAQ uses the following software and R packages:
 
 ## Installation
 Download the source code and the dataset, then put them in the current working directory.
-### Source
-'''sh
-~~~~
-'''
+### Source code
+```sh
+gdown xxxx -O LassoCMAQ_Source_code.tar.gz
+```
 ### Dataset
 ```sh
 gdown 102kKuLUW0Mh4a3ks6Bq2Ri0fhyF-jaft -O LassoCMAQ_Data.tar.gz
