@@ -31,7 +31,7 @@ LassoCMAQ uses the following software and R packages:
 - waiter             (>= 0.2.5.1)
 
 ## Copyright & Contact
-- Copyright (c) 2026 Lee, D.-B, Kang, H.-U, Seo, G.-E, Kim, J.-S, Kim, B.-M, Woo, J.-H, and and Hwang, K.-B. All rights reserved. The author retains all rights to this software and documentation
+- Copyright (c) 2026 Lee, D.-B, Kang, H.-U, Seo, G.-E, Kim, J.-S, Kim, B.-M, Woo, J.-H, and and Hwang, K.-B. All rights reserved. The author retains all rights to this software and documentation.
 - If you have any questions, please feel free to contact me: kbhwang@ssu.ac.kr
 
 ## Citation
@@ -41,7 +41,7 @@ LassoCMAQ uses the following software and R packages:
 Download the source code and dataset, and place them in the current working directory.
 ### Source code
 ```sh
-gdown xxxx -O LassoCMAQ_Source_code.tar.gz -O LassoCMAQ_Source_code.tar.gz
+gdown xxxx -O LassoCMAQ_Source_code.tar.gz
 ```
 ### Dataset
 ```sh
