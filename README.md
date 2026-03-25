@@ -38,12 +38,28 @@ LassoCMAQ uses the following software and R packages:
 - D.-B. Lee et al., A LASSO-based reduced-form CMAQ model for predicting ozone and PM2.5 responses to emission changes in South Korea (submitted)
 
 ## Installation
-Download the source code and the dataset, then put them in the current working directory.
+Download the source code and dataset, and place them in the current working directory.
 ### Source code
 ```sh
-gdown xxxx -O LassoCMAQ_Source_code.tar.gz
+gdown xxxx -O LassoCMAQ_Source_code.tar.gz -O LassoCMAQ_Source_code.tar.gz
 ```
 ### Dataset
 ```sh
 gdown 102kKuLUW0Mh4a3ks6Bq2Ri0fhyF-jaft -O LassoCMAQ_Data.tar.gz
+```
+
+## Usage
+1. Create a working directory and extract the downloaded files:
+```sh
+mkdir LassoCMAQ
+
+tar -xvzf LassoCMAQ_Source_code.tar.gz -C LassoCMAQ
+tar -xvzf LassoCMAQ_Data.tar.gz -C LassoCMAQ
+
+cd LassoCMAQ
+```
+
+2. Run the Shiny app
+```sh
+nohup Rscript filename.R> run_log.txt 2>&1 &
 ```
