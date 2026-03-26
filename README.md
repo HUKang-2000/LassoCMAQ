@@ -41,11 +41,11 @@ LassoCMAQ uses the following software and R packages:
 Download the source code and dataset, and place them in the current working directory.
 ### Source code
 ```sh
-gdown xxxx -O LassoCMAQ_Source_code.tar.gz
+gdown 1UvxVWDeCWfdw7a9Rd1tgwpVvenb449xs -O LassoCMAQ_Source_code.tar.gz
 ```
 ### Dataset
 ```sh
-gdown 102kKuLUW0Mh4a3ks6Bq2Ri0fhyF-jaft -O LassoCMAQ_Data.tar.gz
+gdown 1e9j8Cx3CPUFFajw28ikqiTwnZJZRBljc -O LassoCMAQ_Data.tar.gz
 ```
 
 ## Usage
@@ -56,10 +56,10 @@ mkdir LassoCMAQ
 tar -xvzf LassoCMAQ_Source_code.tar.gz -C LassoCMAQ
 tar -xvzf LassoCMAQ_Data.tar.gz -C LassoCMAQ
 
-cd LassoCMAQ
+cd LassoCMAQ/LassoCMAQ_Source/
 ```
 
 2. Run the Shiny app
 ```sh
-nohup Rscript filename.R> run_log.txt 2>&1 &
+nohup Rscript app.R> run_log.txt 2>&1 &
 ```
