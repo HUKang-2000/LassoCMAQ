@@ -12,7 +12,7 @@
 ## Requirements 
 
 ### Hardware
-- Minimum RAM: 40GB
+- At least 40 GB of RAM is required.
   
 ### Dependencies
 LassoCMAQ uses the following software and R packages:
