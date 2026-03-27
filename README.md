@@ -8,8 +8,13 @@
 2. Select pollutant(s) and click Run to estimate CMAQ-equivalent concentrations for the selected scenario.
 3. Inspect maps and summary metrics; click a grid cell to view the top five influential variables for the corresponding region.
 4. Download the scenario inputs and the full model results as needed.
-   
-## Dependencies
+
+## Requirements 
+
+### Hardware
+- Minimum RAM: 40GB
+  
+### Dependencies
 LassoCMAQ uses the following software and R packages:
 - R                  (>= 4.5)
 - base64enc          (>= 0.1.3)
