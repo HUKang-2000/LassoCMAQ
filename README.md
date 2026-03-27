@@ -56,11 +56,14 @@ mkdir LassoCMAQ
 tar -xvzf LassoCMAQ_Source_code.tar.gz -C LassoCMAQ
 tar -xvzf LassoCMAQ_Data.tar.gz -C LassoCMAQ
 ```
+
 2. Open LassoCMAQ/LassoCMAQ_Source/app.R and set BASE_DIR to the directory containing the extracted LassoCMAQ folder.
+   
 3. Move to the source directory:
 '''sh
 cd LassoCMAQ/LassoCMAQ_Source/
-'''
+```
+
 4. Run the Shiny app
 ```sh
 nohup Rscript app.R> run_log.txt 2>&1 &
