@@ -64,7 +64,7 @@ tar -xvzf LassoCMAQ_Data.tar.gz -C LassoCMAQ
 cd LassoCMAQ/LassoCMAQ_Source/
 ```
 
-4. Run the Shiny app
+4. Run the Shiny app:
 ```sh
 nohup Rscript app.R> run_log.txt 2>&1 &
 ```
