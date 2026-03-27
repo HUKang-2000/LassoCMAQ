@@ -1,7 +1,7 @@
 # LassoCMAQ
 - LassoCMAQ is a computationally efficient reduced-form CMAQ model, developed using the least absolute shrinkage and selection operator (LASSO) together with an adaptive logit transformation of the response variable.
 - It estimates ozone and PM<sub>2.5</sub> concentrations from regional emission-control scenarios within a minute per scenario. The model computes concentrations for every grid cell at every hour, enabling rapid what-if exploration without running CMAQ.
-- The live server is available at 220.70.0.234:8080.
+- The live server is available at [http://220.70.0.234:8080](http://220.70.0.234:8080).
 
 ## How to use LassoCMAQ
 1. Enter a 17 × 7 emission scenario matrix (Region × Emission Sector) specifying emission change ratios (e.g., 0.9 = 10% reduction from the baseline).
