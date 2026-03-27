@@ -60,7 +60,7 @@ tar -xvzf LassoCMAQ_Data.tar.gz -C LassoCMAQ
 2. Open LassoCMAQ/LassoCMAQ_Source/app.R and set BASE_DIR to the directory containing the extracted LassoCMAQ folder.
    
 3. Move to the source directory:
-'''sh
+```sh
 cd LassoCMAQ/LassoCMAQ_Source/
 ```
 
